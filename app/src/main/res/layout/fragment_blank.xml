@@ -1,0 +1,147 @@
+<layout>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp_pc.calculator.BlankFragment">
+
+    <TableLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="250dp"
+      android:layout_height="250dp"
+      android:layout_alignParentBottom="true"
+      android:layout_alignParentRight="true" >
+
+    <TableRow>
+                <Button
+                    android:id="@+id/sin"
+                    android:layout_width="83dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="sin"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35" />
+
+                <Button
+                    android:id="@+id/cos"
+                    android:layout_width="83dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="cos"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+
+                <Button
+                    android:id="@+id/tan"
+                    android:layout_width="83dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="tan"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/antilog"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="ln"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+
+                <Button
+                    android:id="@+id/log"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="log"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+
+                <Button
+                    android:id="@+id/factorial"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="!"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/pi"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="π"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+
+                <Button
+                    android:id="@+id/exponent"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="e"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+
+                <Button
+                    android:id="@+id/power"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="^"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+            </TableRow>
+
+            <TableRow>
+                <Button
+                    android:id="@+id/bracket1"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="("
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+
+                <Button
+                    android:id="@+id/bracket2"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text=")"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+
+                <Button
+                    android:id="@+id/root"
+                    android:layout_width="50dp"
+                    android:layout_height="62.5dp"
+                    android:gravity="center"
+                    android:clickable="true"
+                    android:text="√"
+                    android:textSize="20dp"
+                    android:backgroundTint="#dffd8c35"/>
+            </TableRow>
+
+        </TableLayout>
+
+</RelativeLayout>
+</layout>
